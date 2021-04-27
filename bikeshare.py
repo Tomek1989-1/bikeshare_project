@@ -71,7 +71,7 @@ def load_data(city,month,weekday):
         df = df[df['weekday'] == day_index]
     return df
     
-def time_stats(df):
+def time_statistics(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
     
@@ -90,7 +90,7 @@ def time_stats(df):
     print("\nThis took {} seconds.".format((time.time() - start_time)))
     print('-'*40)
             
-def station_stats(df):
+def station_statistics(df):
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
@@ -155,8 +155,8 @@ def main():
         city, month, weekday = inputs()
         df = load_data(city, month, weekday)
         
-        time_stats(df)
-        station_stats(df)
+        time_statistics(df)
+        station_statistics(df)
         trip_duration_stats(df)
         user_stats(df)
 
