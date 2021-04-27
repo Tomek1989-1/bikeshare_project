@@ -9,6 +9,10 @@ US Bikeshare Data Exploration
 
 ### Description
 In US Bikeshare Data Exploration project I used python to explore data related to bike share system for three major cities in United States - Chicago, New York City and Washington.
+I created python script which enable to choose the following inputs for calculations:
+1) city (Chicago/New York City/Washington)
+2) month
+3) weekday 
 
 ### Files used
 chicago.csv
