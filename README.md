@@ -13,6 +13,7 @@ I created python script which enable to choose the following inputs for calculat
 1) city (Chicago/New York City/Washington)
 2) month
 3) weekday
+
 Then it provides the following statistic calculations:
 1) most popular times of travel
 2) most popular stations and trips
